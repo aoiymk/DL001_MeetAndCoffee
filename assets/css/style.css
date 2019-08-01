@@ -5,6 +5,7 @@ margin: 0;
 font-family: 'Open Sans',sans-serif;
 }
 
+
 h1{
   font-weight: 800;
   font-size: 3.75em;
@@ -70,10 +71,12 @@ section, footer{
 
 footer{
   padding: 50px;
+  width: 100vw;
 
 }
 footer i{
   margin: 0 0.25em 0 0.25em;
+
 }
 
 .charla-texto, .evento{
@@ -87,8 +90,8 @@ vertical-align: middle;
 }
 .icono{
   width: 2rem;
-
 }
+
 .icono svg{
   fill: #ffffff;
 }
@@ -119,4 +122,12 @@ nav ul li{
   display: inline-block;
   margin: 0 1em;
   vertical-align: middle;
+}
+
+.content {
+  border: 0;
+  margin: 0;
+  width: 1085px;
+  padding:   12.25rem 26.0625rem 0rem 26.0625rem;
+  text-align:left;
 }
